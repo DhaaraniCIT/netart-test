@@ -1,0 +1,58 @@
+body{
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  color: black;
+
+}
+li{
+  font-size: 15px
+}
+footer
+{
+  display: block;
+  background-color: red;
+  height:auto;
+  width: 100%;
+  }
+  footer div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+footer i {
+
+  background-color: white;
+ border-radius: 50%;
+ border: 1x solid grey;
+ padding:10px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background: linear-gradient(to bottom, #ffffff 0%, #ffff66 100%);
+}
+
+.flex-container > div {
+
+  margin: 10px;
+  font-size: 30px;
+}
+#img {
+  border: 8px solid white;
+  width: 100%;
+  box-shadow: -10px 20px 20px dimgray;
+
+}
+.v1{
+  padding-left: 1px;
+  padding-right: 1px;
+  border-left: 2px solid red;
+  height: 4px;
+}
+.v2{
+  padding-left: 1px;
+  padding-right: 1px;
+  border-left: 1.5px solid red;
+  height: 4px;
+}
